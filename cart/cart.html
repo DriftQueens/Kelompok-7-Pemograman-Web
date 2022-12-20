@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Restop.</title>
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background: url(images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    :root{
+        --green:#27ae60;
+        --black:#192a56;
+        --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    }
+
+    .jarak{
+        margin-left: 11%;
+        margin-bottom: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .ap{
+        background-color: #F0E9D2;
+    }
+
+    .judul{
+        margin-top: 4%;
+        font-family: 'Playfair Display', serif;
+        color: var(--black);
+    }
+
+    .bawah{
+        background-color: #9BA17B;
+    }
+</style>
+<body>
+    <h5 class="judul text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-4xl">Keranjang Anda</h5>
+    <div class="ap jarak overflow-x-auto relative shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-center text-xs text-gray-700 uppercase">
+                <tr>
+                    <th scope="col" class="py-3 px-6">
+                        Nama Produk
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Harga
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr class="bawah border-b dark:bg-gray-900 dark:border-gray-700">
+                    <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap dark:text-white"></th>
+                    <td class="py-4 px-6 text-white"></td>
+                    <td class="py-4 px-6">
+                        <a href="#" class="font-medium text-red-500 dark:text-red-500 hover:underline">Hapus</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+<script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+</html>
