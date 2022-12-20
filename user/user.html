@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Restop.</title>
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background: url(images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    :root{
+        --green:#27ae60;
+        --black:#192a56;
+        --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    }
+
+    .m{
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+
+    .t{
+        padding-bottom: 7%;
+        padding-right: 2%;
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+
+    .posi{
+        margin-top: 10%;
+    }
+
+    .btn{
+    margin-top: 15px;
+    margin-left: 18%;
+    display: inline-block;
+    font-size: 1rem;
+    color:#fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .btn:hover{
+    background: #CFB997;
+    letter-spacing: .1rem;
+    }
+</style>
+<body>
+    <center>
+        <div class="posi grid md:grid-flow-col gap-8 max-w-4xl pt-4 py-4 pr-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div class="t justify-items-center m col-md-4 w-44 h-44 p-10 ml-14 bg-white border border-gray-200 rounded-full shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <svg class="t w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+        </div>
+        <!--FORMS-->
+        <div class="">
+            <table class=" w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <tbody>
+                    <!--Nama Awal-->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Nama Awal</th>
+                        <td class="py-4 px-6"></td><!--Biarin kosong-->
+                        <td class="py-4 px-6"></td>
+
+                    </tr>
+                    <!--Nama Akhir-->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Nama Akhir</th>
+                        <td class="py-4 px-6"></td><!--Biarin kosong-->
+                        <td class="py-4 px-6"></td>
+
+                    </tr>
+                    <!--Nama Pengguna-->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Nama Pengguna</th>
+                        <td class="py-4 px-6"></td><!--Biarin kosong-->
+                        <td class="py-4 px-6"></td>
+    
+                    </tr>
+                    <!--Nomer Telepon-->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Nomer Telepon</th>
+                        <td class="py-4 px-6"></td><!--Biarin kosong-->
+                        <td class="py-4 px-6"></td>
+                    </tr>
+                    <!--Alamat-->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Alamat</th>
+                        <td class="py-4 px-6"></td><!--Biarin kosong-->
+                        <td class="py-4 px-6"></td>
+                    </tr>
+                    <!--Tanggal Lahir-->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Tanggal Lahir</th>
+                        <td class="py-4 px-6"></td><!--Biarin kosong-->
+                        <td class="py-4 px-6"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>    
+    </div>
+    </div>
+</center>
+    <a href="home.php" class="btn">home</a>
+</body>
+<script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+</html>
